@@ -1,14 +1,23 @@
 package cuentas;
 
+/**
+ * Clase Main, encargada de llamar a la función operativa_cuenta.
+ */
 public class Main {
-
+    /**
+     * Método main, que llama a la función operativa_cuenta.
+     * @param args argumentos recibidos por línea de comandos.
+     */
     public static void main(String[] args) {
         CCuenta cuenta1;
         double saldoActual;
 
         operativa_cuenta(null);
     }
-
+    /**
+     * Método operativa_cuenta, que realiza una operativa básica en una cuenta.
+     * @param cantidad cantidad a operar en la cuenta.
+     */
     private static void operativa_cuenta(java.lang.Float cantidad) {
         CCuenta cuenta1;
         double saldoActual;
